@@ -1,0 +1,28 @@
+'''
+BREAK statement
+
+break is used to come out of the loop when encountered. it instructs the program the program to exit the loop now.
+'''
+
+for i in range (100):
+    if(i==45):
+        break # Exit the loop raight now
+    print(i)
+
+# =================================================================
+
+'''
+CONTINUE Statement
+
+Continue is used to stop the current iteration of the loop and continue with the next one. ot instructs the program to skip this iteration".
+'''
+for i in range (100):
+    if(i==78):
+        continue # skip this iteration
+    print(i)
+
+
+
+# =======================================================================
+
+
